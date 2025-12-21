@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align: center;
+    background-color: #FCF6F4;
+}
+
+
+.nav-header{
+    background-color: #1586a5;
+    padding: 10px;
+}
+
+.nav-header a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 140%;
+    color: #68ff4a;
+}
+
+main{
+    text-align: center;
+}
+main h2{
+    color: #174693;
+} 
+main img{
+    width: 70%;
+    border-radius: 10%;
+}
+
+main h3{
+    color: #8DAA91;
+    font-size: 140%;
+}
+main li{
+    display: inline-block;
+    color: #286836;
+    font-size: 130%;
+}
+
+main p{
+    display: inline-block;
+}
+
+.li-small{
+    font-size: 110%;
+}
+
