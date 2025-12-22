@@ -9,23 +9,32 @@ body{
 
 
 .nav-header{
+    position: fixed;
+    top: 10px;
     background-color: #1586a5;
     padding: 10px;
+}
+
+div{
+    scroll-margin-top: 90px;
 }
 
 .nav-header a{
     margin: 10px;
     text-decoration: none;
-    font-size: 140%;
+    font-size: 147%;
     color: #68ff4a;
 }
 
 main{
     text-align: center;
+    margin-top: 70px;
 }
+
 main h2{
     color: #174693;
-} 
+}
+
 main img{
     width: 70%;
     border-radius: 10%;
