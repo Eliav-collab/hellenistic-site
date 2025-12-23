@@ -13,6 +13,7 @@ body{
     top: 10px;
     background-color: #1586a5;
     padding: 10px;
+    z-index: 9999;
 }
 
 div{
@@ -29,6 +30,16 @@ div{
 main{
     text-align: center;
     margin-top: 70px;
+}
+
+main audio{
+    position: sticky;
+    display: block;
+    top: 70px;
+}
+
+main div{
+    position: relative;
 }
 
 main h2{
