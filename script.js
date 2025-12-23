@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
 // 1. הגדרות וחיבור ל-API
-const API_KEY = ""; 
+const API_KEY = "AIzaSyA-HKvPmc7axPxDccpJPsubPlMArErCloE"; 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 const model = genAI.getGenerativeModel({ 
